@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Submit Your Data</h1>
+    </header>
+    <main>
+        <form method="POST">
+            <label for="input_data">Enter Data:</label><br>
+            <input type="text" name="input_data" required><br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

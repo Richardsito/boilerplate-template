@@ -1,8 +1,7 @@
 
 # Flask Project Boilerplate
 
-## Objective
-This guide will help you set up a reusable Flask project boilerplate and explain how to adapt it for different scenarios. By the end of this activity, you will understand how to create, customize, and expand your project for scenarios such as interactive tools, booking systems, and user feedback features.
+
 
 ## Step 1: Understanding the Boilerplate Structure
 Every Flask project follows a structured approach to ensure scalability and readability. Here's the general structure you'll work with:

@@ -1,0 +1,115 @@
+/* Base styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #8B0000; /* Wine-themed colour */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main section styling */
+main {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #8B0000;
+}
+
+/* Form styling */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #8B0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #a30000;
+}
+
+/* Placeholder for confirmation message */
+#confirmationMessage {
+    font-weight: bold;
+    color: #8B0000;
+}
+#daySwitcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#daySwitcher button {
+    background-color: #ffcccc;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#daySwitcher span {
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+#slotsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.slot {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50%; /* Make the corners round */
+    background-color: #ffcccc; /* Light red color */
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth transition for floating effect */
+}
+
+.slot:hover {
+    transform: translateY(-5px); /* Floating effect on hover */
+}
+
+.slot.unavailable {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.slot.selected {
+    background-color: #ff9999; /* Darker red for selected slot */
+}
